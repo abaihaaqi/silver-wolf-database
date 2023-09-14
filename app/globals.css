@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --halaya-ube: #63345e;
+    --deep-lilac: #ac61b9;
+    --light-steel-blue: #b7c1de;
+    --yale-blue: #0b468c;
+    --oxford-blue: #092047;
+  }
+
+  body {
+    @apply bg-black text-white;
+  }
+}
