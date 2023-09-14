@@ -25,6 +25,7 @@ export default async function Characters() {
     <div>
       {filteredCharData.map((char: any) => (
         <CharCard
+          key={char.id}
           id={char.id}
           name={char.name}
           element={char.element}
