@@ -20,6 +20,8 @@ const config: Config = {
           "linear-gradient(to right, transparent, #ac61b9, #b7c1de, #ac61b9, transparent)",
         "app-gradient-to-b":
           "linear-gradient(to bottom, transparent, #ac61b9, #b7c1de, #ac61b9, transparent)",
+        "app-gradient-to-br":
+          "linear-gradient(to bottom right, #63345e, #ac61b9, #b7c1de, #ac61b9, #63345e)",
       },
     },
   },
