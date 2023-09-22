@@ -54,7 +54,7 @@ export default function CurrentBanner() {
       <h1 className="font-bold text-lg text-center mb-5">Current Banner</h1>
       <div className="px-2 grid grid-cols-1 gap-5 mb-5">
         {/* Character Event Banner */}
-        <Card className="flex flex-col gap-2">
+        <Card className="flex flex-col gap-2 overflow-hidden">
           <Image
             src={newCharBanner.img}
             alt="New Character Event Banner Image"
@@ -142,7 +142,7 @@ export default function CurrentBanner() {
         </Card>
 
         {/* Light Cone Event Banner */}
-        <Card className="flex flex-col gap-2">
+        <Card className="flex flex-col gap-2 overflow-hidden">
           <Image
             src={newLightConeBanner.img}
             alt="New Character Event Banner Image"
